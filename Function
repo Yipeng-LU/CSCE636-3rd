@@ -48,7 +48,7 @@ def predAndPlot(root):
       with open(root3+k,'r') as load_f:
         load_dict = json.load(load_f)
       inp[i,j,:]=load_dict['people'][0]['pose_keypoints_2d']
-  model=load_model('/content/drive/My Drive/new_model8.h5')
+  model=load_model('/content/drive/My Drive/new_model11.h5')
   result=model.predict(inp)
   x=[]
   data=[]
