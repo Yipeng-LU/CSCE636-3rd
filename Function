@@ -21,7 +21,6 @@ def predAndPlot(root):
   !mkdir '/content/temp/videoTempFor_{name}/'
   root2='/content/temp/videoTempFor_{}/'.format(name)
   video = mp.VideoFileClip(root)
-  video=video.resize((320,240))
   l=video.duration
   i=0
   j=2
